@@ -1,11 +1,3 @@
-#rust {
-  display: none;
-}
-
-#go {
-  display: none;
-}
-
-#python {
+.lang {
   display: none;
 }

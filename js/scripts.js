@@ -1,8 +1,11 @@
 $(document).ready(function() {
   $('input[type="radio"]').click(function() {
-      var inputValue = $(this).attr("value");
-      var targetBox = $("." + inputValue);
+      let inputValue = $(this).attr("value");
+      let targetBox = $("." + inputValue);
       $(".lang").not(targetBox).hide();
       $(targetBox).show();
     });
+  $("button").click(function(){
+    $("#results").show();
   });
+});

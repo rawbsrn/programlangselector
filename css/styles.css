@@ -1,3 +1,7 @@
 .lang {
   display: none;
 }
+
+#results {
+  display: none;
+}

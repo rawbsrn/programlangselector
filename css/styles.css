@@ -2,6 +2,10 @@
   display: none;
 }
 
-#results {
+#quiz {
+  display:none;
+}
+
+#quizResults {
   display: none;
 }

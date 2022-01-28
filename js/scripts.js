@@ -5,7 +5,10 @@ $(document).ready(function() {
       $(".lang").not(targetBox).hide();
       $(targetBox).show();
     });
-  $("button").click(function(){
-    $("#results").show();
+  $("button#start").click(function(){
+    $("#quiz").show();
+  });
+  $("button#results").click(function(){
+    $("#quizResults").show();
   });
 });

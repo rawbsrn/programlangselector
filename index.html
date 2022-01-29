@@ -15,24 +15,24 @@
 
     <button id="start">Click me to start the quiz!</button>
     <div id="quiz">
-      <label for="name">What is your name?:</label><br>
-  <input type="text" id="name" name="name" ><br>
+      <form><label for="name">What is your name?:</label><br>
+  <input type="text" id="name" name="name"></form><br>
       <p>
         Do you like Snakes?
 
         <form>
-          <input type="radio" id="snakesYes" name="likeSnakes" value="Yes">
+          <input type="radio" id="snakesYes" name="likeSnakes" value="snakesYes">
           <label for="Yes">Yes</label><br>
           <input type="radio" id="snakesNo" name="likeSnakes" value="No">
-          <label for="No">No</label><br>
+          <label for="snakesNo">No</label><br>
         </form>
         Have you ever had Tetanus?
 
         <form>
           <input type="radio" id="tetanusYes" name="likeTetanus" value="Yes">
-          <label for="Yes">Yes</label><br>
+          <label for="tetanusYes">Yes</label><br>
           <input type="radio" id="tetanusNo" name="likeTetanus" value="No">
-          <label for="No">No</label><br>
+          <label for="tetanusNo">No</label><br>
         </form>
         
 
@@ -40,29 +40,33 @@
 
         <form>
           <input type="radio" id="boardGamesYes" name="likeBoardGames" value="Yes">
-          <label for="Yes">Yes</label><br>
+          <label for="boardGamesYes">Yes</label><br>
           <input type="radio" id="boardGamesNo" name="likeBoardGames" value="No">
-          <label for="No">No</label><br>
+          <label for="boardGamesNo">No</label><br>
         </form>
+
+        Do you prefer programming languages with short, medium or long names?
+        <select class="form-control" id="beverage">
+          <option value="go">Short and sweet</option>
+          <option value="rust">Medium</option>
+          <option value="python">The longer the better</option>
+        </select>
+        
 
 
           What do you like to drink the most while coding?
         <select class="form-control" id="beverage">
-          <option>Coffee, it keeps me speeding along while I work</option>
-          <option>Tea, to keep me calm and relaxed</option>
-          <option>Snake Venom</option>
+          <option value="rust">Coffee, it keeps me speeding along while I work</option>
+          <option value="go">Tea, to keep me calm and relaxed</option>
+          <option value="python">Snake Venom</option>
         </select>
         
       </p>
 
-
-
-
-
       <button id="results">Click me to show the results!</button>
     </div>
       <div id="quizResults">
-      <p> Based on your responses, we suggest that you learn PLACEHOLDER TEXT, $NAME. If you want to learn more, click the radio buttons below:</p>
+      <p> Based on your responses, we suggest that you learn PLACEHOLDER TEXT, <span class="nameInput"></span>. If you want to learn more, click the radio buttons below:</p>
 
       <div class="radio">
         <label>

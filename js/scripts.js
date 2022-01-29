@@ -9,6 +9,9 @@ $(document).ready(function() {
     $("#quiz").show();
   });
   $("button#results").click(function(){
+    $("#quiz").hide();
+    const name1Input = $("input#name").val()
+    $(".nameInput").text(name1Input);
     $("#quizResults").show();
   });
 });

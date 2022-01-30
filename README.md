@@ -17,7 +17,7 @@ A website designed to help you pick which programming language to learn based on
 
 ## Setup/Installation Requirements
 
-Be sure to clone this repo to your local machine by running the command git clone https://github.com/rawbsrn/portfolio-epicodus . After you do this you should be able to open the index.html file located in the portfolio-epicodus folder in the web browser of your choosing. 
+Be sure to clone this repo to your local machine by running the command git clone https://github.com/rawbsrn/programlangselector . After you do this you should be able to open the index.html file located in the portfolio-epicodus folder in the web browser of your choosing. 
 
 You may need to install Node.js on your machine in order to get working, you can follow the instructions here for more information: https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js
 

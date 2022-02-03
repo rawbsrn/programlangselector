@@ -16,36 +16,32 @@
     <button id="start">Click me to start the quiz!</button>
     <div id="quiz">
       <form><label for="name">What is your name?:</label><br>
-  <input type="text" id="name" name="name"></form><br>
-      <p>
-        Do you like Snakes?
+        <input type="text" id="name" name="name"></form><br>
 
-        <form>
+        <p>Do you like Snakes?</p>
+
           <input type="radio" id="userSnakesYes" name="likeSnakes" value="snakesYes">
           <label for="Yes">Yes</label><br>
           <input type="radio" id="userSnakesNo" name="likeSnakes" value="No" checked>
           <label for="snakesNo">No</label><br>
-        </form>
-        Have you ever had Tetanus?
 
-        <form>
+        <p>Have you ever had Tetanus?</p>
+
           <input type="radio" id="userTetanusYes" name="likeTetanus" value="tetanusYes">
           <label for="tetanusYes">Yes</label><br>
           <input type="radio" id="userTetanusNo" name="likeTetanus" value="No" checked>
           <label for="tetanusNo">No</label><br>
-        </form>
+
         
 
-        Do you like old board games?
+        <p>Do you like old board games?</p>
 
-        <form>
           <input type="radio" id="userBoardGamesYes" name="likeBoardGames" value="boardGamesYes">
           <label for="boardGamesYes">Yes</label><br>
           <input type="radio" id="userBoardGamesNo" name="likeBoardGames" value="No" checked>
           <label for="boardGamesNo">No</label><br>
-        </form>
 
-        Do you prefer programming languages with short, medium or long names?
+        <p>Do you prefer programming languages with short, medium or long names?</p>
         <select class="form-control" id="notUsed">
           <option value="go">Short and sweet</option>
           <option value="rust">Medium</option>
@@ -53,42 +49,36 @@
         </select>
         
 
-
-          What do you like to drink the most while coding?
+          <p>What do you like to drink the most while coding?</p>
         <select class="form-control" id="beverage">
           <option value="rust">Coffee, it keeps me speeding along while I work</option>
           <option value="go">Tea, to keep me calm and relaxed</option>
           <option value="python">Snake Venom</option>
         </select>
         
-      </p>
 
       <button id="results">Click me to show the results!</button>
     </div>
       <div id="quizResults">
       <p> Based on your responses, we suggest that you learn <span class="langInput"></span>, <span class="nameInput"></span>. If you want to learn more, click the radio buttons below:</p>
-
       <div class="radio">
         <label>
           <input type="radio" name="language" value="rust">
           Rust
         </label>
       </div>
-
       <div class="radio">
         <label>
           <input type="radio" name="language" value="go">
           Go
         </label>
       </div>
-
       <div class="radio">
         <label>
           <input type="radio" name="language" value="python">
           Python
         </label>
       </div>
-
       <div class = "rust lang">
         <p>For those that like to go fast and safely, there's Rust!</p>
       </div>
@@ -100,7 +90,6 @@
       </div>
     </div>
   </div>
-
 
 </body>
 </html>

@@ -15,15 +15,17 @@ $(document).ready(function() {
 
 
     if (likeSnakes === "snakesYes"){
-      langChoice = "python"}
-
-    else if (likeTetanus === "tetanusYes"){
-      langChoice = "rust";}
-
-    else if (likeBoardGames === "boardGamesYes"){
-      langChoice = "go";}
-  else{
-    langChoice = beverage;}
+      langChoice = "python"
+    }
+      else if (likeTetanus === "tetanusYes"){
+      langChoice = "rust";
+    }
+      else if (likeBoardGames === "boardGamesYes"){
+      langChoice = "go";
+    }
+      else{
+    langChoice = beverage;
+  }
     $(".nameInput").text(name1Input);
     $(".langInput").text(langChoice);
     $("#quizResults").show();

@@ -13,13 +13,13 @@ $(document).ready(function() {
     let langChoice = ""
 
     if (likeSnakes === "snakesYes"){
-      langChoice = "python"
+      langChoice = "Python"
     }
       else if (likeTetanus === "tetanusYes"){
-      langChoice = "rust";
+      langChoice = "Rust";
     }
       else if (likeBoardGames === "boardGamesYes"){
-      langChoice = "go";
+      langChoice = "Go";
     }
       else{
     langChoice = beverage;

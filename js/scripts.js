@@ -14,14 +14,11 @@ $(document).ready(function() {
 
     if (likeSnakes === "snakesYes"){
       langChoice = "Python"
-    }
-      else if (likeTetanus === "tetanusYes"){
+    } else if (likeTetanus === "tetanusYes"){
       langChoice = "Rust";
-    }
-      else if (likeBoardGames === "boardGamesYes"){
+    } else if (likeBoardGames === "boardGamesYes"){
       langChoice = "Go";
-    }
-      else{
+    } else{
     langChoice = beverage;
   }
     $(".nameInput").text(name1Input);

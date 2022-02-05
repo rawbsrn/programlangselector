@@ -6,13 +6,11 @@ $(document).ready(function() {
   $("button#results").click(function(){
     $("#quiz").hide();
     const name1Input = $("input#name").val()
-    
     const likeSnakes = $("input:radio[name=likeSnakes]:checked").val()
     const likeTetanus = $("input:radio[name=likeTetanus]:checked").val()
     const likeBoardGames = $("input:radio[name=likeBoardGames]:checked").val()
     const beverage = $("#beverage").val()
     let langChoice = ""
-
 
     if (likeSnakes === "snakesYes"){
       langChoice = "python"
@@ -30,7 +28,6 @@ $(document).ready(function() {
     $(".langInput").text(langChoice);
     $("#quizResults").show();
   });
-
 
   $('input[type="radio"]').click(function() {
     let inputValue = $(this).attr("value");
